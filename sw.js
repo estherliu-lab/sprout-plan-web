@@ -1,4 +1,4 @@
-const CACHE = 'sprout-plan-v6-pages'
+const CACHE = 'sprout-plan-v7-pages'
 const APP_ROOT = new URL('./', self.location.href)
 const PRECACHE = ['./', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './favicon-32.png', './sprout-plan.ico']
   .map((path) => new URL(path, APP_ROOT).href)
